@@ -1,0 +1,2 @@
+# Python-Coderbyte-Challenges
+In this repository i am trying to solve the coderbyte coding challenges in Python. It will help beginners to kickstart their journey in coding as i started. 
