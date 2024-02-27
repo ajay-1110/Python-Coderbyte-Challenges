@@ -36,4 +36,4 @@ def findintersection(arr):
                 x.append(a[i])
     return ''.join(str(i) + ',' for i in x)[:-1]
     
-print(findintersection(["1, 3, 9, 10, 17, 18", "1, 4, 9, 10, 12, 15, 17, 18, 20"]))        
+print(findintersection(["1, 3, 9, 10, 17, 18", "1, 4, 9, 10"]))        
