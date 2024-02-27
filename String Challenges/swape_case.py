@@ -1,5 +1,5 @@
 """/****************************************************************
- *             CODERBYTE SWIPE CASE TWO CHALLENGE               *
+ *             CODERBYTE SWPE CASE TWO CHALLENGE               *
  *                                                              *
  * Problem Statement                                            *
  * Have the function SwapII(str) take the str parameter and swap*
