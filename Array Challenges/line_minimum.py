@@ -37,6 +37,6 @@ def offlineminimum(strarr):
             small.append(x)
             new = sorted(new)
             new.pop(0)
-    return small
+    return "".join(i + ',' for i in small)[:-1]
 
 print(offlineminimum(["4","E","1","E","2","E","3","E"]))
