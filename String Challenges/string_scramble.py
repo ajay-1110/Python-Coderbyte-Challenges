@@ -17,6 +17,7 @@
  * Input 2: "h3llko" & "hello"                                  *
  * Output 2: false                                              *"""
 
+#First solution - 
 def stringscramble(str1,str2):
     raw_str = str1
     match_str = str2
@@ -28,3 +29,13 @@ def stringscramble(str1,str2):
     return True
 
 print(stringscramble("h3llko" , "hello"))
+
+#Second solution - 
+def strscram(str1,str2):
+    x = "".join(sorted(str1))
+    y = "".join(sorted(str2))
+    if y in x:
+        return True
+    return False
+
+print(strscram("h3llko" , "hello"))
