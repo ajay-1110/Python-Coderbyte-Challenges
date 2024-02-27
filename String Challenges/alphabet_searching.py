@@ -19,18 +19,18 @@
  * Output 2: false 
 """
 
-
-import re
+#First Solution - 
 def alpha(strn):
     letters = 'qwertyuiopasdfghjklzxcvbnm'
-    a = re.sub(r'[^a-zA-Z]','',strn).lower()
     for i in letters:
-        if i not in a:
+        if i not in strn.lower():
             return False
     return True
 
 print(alpha("qwertyuopasdfdjdjghjklzxcvbnm"))
 
+#Second Solution (using regex) - 
+import re
 def alpha2(strn):
     b = set(re.sub(r'[^a-zA-Z]','',strn).lower())
     if len(b) == 26:
